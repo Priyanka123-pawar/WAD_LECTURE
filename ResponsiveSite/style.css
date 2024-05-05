@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav{
+    background-color: green;
+    width: 100%;
+    
+}
+
+.nav-name{
+    margin-left:70px;
+    font-size: 30px;
+    color: snow;
+}
+
+.nav-dropdown{
+    background:green;
+}
+
+.nav-menu{
+     margin-left:70px;
+}
+
+.body-content{
+  display: flex;
+}
+
+.sidebar{
+    position: fixed;
+    background-color: green;
+    width:35vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar li{
+    font-size: 20px;
+    padding: 15px 40px;
+    display: flex;
+    align-items:center;
+    color: snow;
+}
+
+.sidebar li:hover{
+    color: green;
+   
+    background-color: snow; 
+}
+
+.content-cards{
+    position: relative;
+    margin-top: 50px;
+    margin-left:300px;
+}
+
+.content-cards .card{
+    
+   box-shadow: 0 4px 8px 0 rgba(0, 0,0,0.4);
+}
+
+.content-card{
+    display: flex;
+    text-align: center;
+    justify-content:space-around;
+}
+
+.content-card .card img{
+    height:200px;
+    width: 200px;
+    text-align: center;
+}
+
+.card-body h1 {
+      color: green;
+}
+
+.card-body h3 {
+    color: green;
+    font-weight: 700;
+}
+
+.content-below{
+    margin-top:30px;
+    
+}
+
+.content-below .card{
+    color: green;
+    text-align: center;
+}
+
+.content-below .card .card-title{
+    font-weight: 700;
+}
+
+
+.content-below .card .btn{
+    color:snow;
+    background: green;
+    border: green;
+}
+
+.content-below .card .btn:hover{
+    background: snow;
+    color: green;
+    border: green;
+    padding: 2px 8px;
+}
+
+
+
+
+
+
